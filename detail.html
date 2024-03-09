@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailpage</title>
+    <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+      <!-- header part -->
+    <header id="icon">
+        <div id="brand">
+            <h1>
+                ZOMATO!!
+            </h1>
+        </div>
+        <div id="social">
+
+            <a href="https://www.facebook.com/profile.php?id=100028300727083"">
+                <img src="https://i.ibb.co/YdpWWKc/fb.png" alt="facebook" class="sociallogo"/>
+            </a>
+            <a href="https://www.instagram.com/abhi_in_way/">
+                <img src="https://i.ibb.co/hKRHGbV/insta.png" alt="instagram" class="sociallogo"/>
+            </a>
+            <a href="www.linkedin.com">
+                <img src="https://i.ibb.co/tmY9djM/linkedin-icon-31478.png." alt="linkedin" class="sociallogo"/>
+            </a>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- navigation bar -->
+    <nav class="navbar navbar-inverse" id="colour">
+        <div class="container-fluid " id="edit">
+          
+          <ul class="nav navbar-nav" id="trans">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Near</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Filters
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu" id="drop">
+                  <li><a href="#">Price- Rs.100-200</a></li>
+                  <li><a href="#">Price- Rs.200-300</a></li>
+                  <li><a href="#">Price- Rs.300-400</a></li>
+                  <li><a href="#">Price- Rs.400-500</a></li>
+                  <li><a href="#">Price- Rs.500-600</a></li>
+                  <li><a href="#">Price- Rs.600-700</a></li>
+                  <li><a href="#">Price- Rs.700-800</a></li>
+                  <li><a href="#">Price- Rs.800-900</a></li>
+                  <li><a href="#">Price- Rs.900-1000</a></li>
+                  <li><a href="#">Price- Rs.1000-1200</a></li>
+                </ul>
+              </li>
+           
+          </ul>
+          <form class="navbar-form navbar-left" action="/action_page.php">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" name="search">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </nav>
+    <!-- navigation bar ends -->
+
+    <!-- content div -->
+    <div class="box">
+        <div class="image">
+            <img src="https://i.ibb.co/w639DC9/otium-cookhouse.webp" alt="Burger">
+        </div>
+        <div class="content">
+            <h2 class="title">Wat-a-burger</h2>
+            <p class="subtitle">VISIT BURGER POINT</p>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>4.4(21)</span>
+            </div>
+            <div class="product-price">
+                <p class="last-price">Old Price:<span>Rs-120.00</span></p>
+                <p class="new-price">New Price:<span>Rs-100.00</span></p>
+            </div>
+            <div class="product-detail">
+                <h2>About This Item:</h2>
+                <ul class="list">
+                    <li>fully sanatized</li>
+                    <li>fresh</li>
+                    <li>Best Quality</li>
+                    <li>Pure</li>
+                </ul>
+                <i class="fa-sharp fa-solid fa-hand-sparkles"></i>
+                <i class="fa-sharp fa-solid fa-pump-medical"></i>
+            </div>
+            <div class="btn">
+                <input type="number"min=0 value="1">
+                <button type="button">add to cart <i class="fas fa-shopping-cart"></i></button>
+                <button type="button" class="color">Proceed</button>
+            </div>
+            <div class="social">
+                <p>
+                    Share At:
+                </p>
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- content div end -->
+
+     <!-- footer -->
+     <footer>
+        <p id="name">
+            &copy; Abhishek chauhan
+        </p>
+        <hr>
+        <div class="footdiv">
+            Contact Us
+            <p> Who We Are</p>
+            <p>  Blog</p>
+            <p>  Work With Us</p> 
+        </div>
+        <div class="footdiv">
+        Main Menu
+        <p> Consumer Complaints</p>
+        <p>Submit a Complaint</p>
+        <p>Categories</p>
+        </div>
+        <div class="footdiv side">
+        Additional
+        <p>Terms of Use</p>
+        <p>Privacy Policy</p>
+        <p>About us</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+    
+</body>
+</html>

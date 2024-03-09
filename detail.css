@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* header */
+a{
+    text-decoration: none;
+}
+header{
+    height: 60px;
+    width:100%;
+    color: #fff;
+    /* border:2px solid rgb(65, 13, 13); */
+    background:linear-gradient(180deg, hsl(0,100%,45%) 0%, hsl(0,70%,35%) 100%);
+
+}
+.sociallogo{
+    height:40px;
+    width:40px;
+   margin-right:15px;
+}
+#social{
+    float:right;
+    margin-top: 9px;
+    margin-right: 1%;
+}
+#brand{
+    float:left;
+    margin-left: 1%;
+    margin-top: -7px;
+}
+/* header end */
+
+/* navigation bar */
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 31px;
+    margin-right: auto;
+    margin-left: 35%;
+}
+#edit{
+    margin-left: 27%;
+}
+#colour {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    font-size: 18px;
+    color: #fff;
+}
+#trans li a{
+    transition: 0.2s ease-in;
+    color: #fff;
+}
+#trans li a:hover{
+    background-color: brown;
+}
+#drop li a{
+    color: #000;
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    margin-left: -1px;
+    margin-top: 0;}
+/* navigation bar end */
+
+/* content bar */
+.box{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 1%;
+    display: inline-block;
+    margin-left: 14%;
+
+}
+.box .image{
+    height: 600px;
+    width: 40%;
+    /* border:8px solid green; */
+    margin: 64px;
+    float: left;
+}
+.box .image img{
+    height: 100%;
+    width: 100%;
+}
+.box .content{
+    /* border: 3px solid orange; */
+    height: 500px;
+    width: 40%;
+    float: left;
+    margin-top: -663px;
+    margin-left: 58%;
+}
+.box .content .title{
+    text-transform: capitalize;
+    margin: 1%;
+    font-size: 40px;
+}
+.box .content .subtitle{
+    font-size: 15px;
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 1%;
+    margin-top: 2%;
+    background-color: #256eff;
+    color: #fff;
+    padding: 4px;
+}
+.box .content .rating {
+    margin-left: 1%;
+    margin-top: 2%;
+    font-size: 20px;
+    color: #ffc107;
+}
+.box .content .rating span{
+    color: #252525;
+}
+.product-price{
+    font-weight: 700;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+.product-price span{
+    font-weight: 400;
+}
+
+.product-price .last-price span{
+    text-decoration: line-through;
+    color: #f64749;
+}
+.product-detail h2{
+    color: red;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+.product-detail ul li{
+    list-style: none;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    background: url(https://i.ibb.co/pdwbvJp/check.png) left center no-repeat;
+    background-size: 18px;
+    padding-left: 29px;
+    font-weight: 600;
+}
+.product-detail i{
+    font-size: 70px;
+    color: #118839;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.btn{
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+.btn button{
+    border-radius: 25px;
+    border: 1.5px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.btn input{
+    width: 60px;
+    border-radius: 25px;
+    border: 1.5px solid #000;
+    text-align: center;
+    padding: 8px;
+}
+.btn button{
+    color: #fff;
+    background: #256eff;
+    text-transform: capitalize;
+}
+.btn .color{
+    background: #118839;
+}
+.social{
+    display: flex;
+    align-items: centers;
+}.social a{
+    display: flex;
+    align-items: centers;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 23px;
+}
+.social a:hover{
+    background: #000;
+    background-color: transparent;
+    color: green;
+}
+.social a i{
+    padding: 7px;
+    text-decoration: none;
+}
+.social p{
+    margin-top: 6%;
+    margin-left: 2%;
+    font-weight: 700;
+}
+
+/* content bar end */
+
+
+
+
+/* footer css */
+
+footer{
+    /* margin-top: 2%; */
+    height: 299px;
+    width:100%;
+    text-align: center;
+    background:linear-gradient(180deg, hsl(0,100%,45%) 0%, hsl(0,70%,35%) 100%);
+    color: #fff;
+    font-size: 25px;
+}
+.footdiv{
+    float: left;
+    width: 33%;
+    height: 140px;
+    font-size: 25px;
+    border-right: 2px solid #fff;
+    margin-top: 1%;
+}
+.footdiv >p{
+    font-size: 15px;
+    line-height: 2;
+}
+.side{
+    border: none;
+}
+#name{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* footer end */

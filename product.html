@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- header part -->
+    <header id="icon">
+        <div id="brand">
+            <img src="https://i.ibb.co/zFZxJqv/Zomato.webp" alt="name">
+        </div>
+        <div id="social">
+
+            <a href="https://www.facebook.com/profile.php?id=100028300727083"">
+                <img src="https://i.ibb.co/YdpWWKc/fb.png" alt="facebook" class="sociallogo"/>
+            </a>
+            <a href="https://www.instagram.com/abhi_in_way/">
+                <img src="https://i.ibb.co/hKRHGbV/insta.png" alt="instagram" class="sociallogo"/>
+            </a>
+            <a href="www.linkedin.com">
+                <img src="https://i.ibb.co/tmY9djM/linkedin-icon-31478.png." alt="linkedin" class="sociallogo"/>
+            </a>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- navigation bar -->
+    <nav class="navbar navbar-inverse" id="colour">
+        <div class="container-fluid " id="edit">
+          
+          <ul class="nav navbar-nav" id="trans">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Near</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Filters
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu" id="drop">
+                  <li><a href="#">Price- Rs.100-200</a></li>
+                  <li><a href="#">Price- Rs.200-300</a></li>
+                  <li><a href="#">Price- Rs.300-400</a></li>
+                  <li><a href="#">Price- Rs.400-500</a></li>
+                  <li><a href="#">Price- Rs.500-600</a></li>
+                  <li><a href="#">Price- Rs.600-700</a></li>
+                  <li><a href="#">Price- Rs.700-800</a></li>
+                  <li><a href="#">Price- Rs.800-900</a></li>
+                  <li><a href="#">Price- Rs.900-1000</a></li>
+                  <li><a href="#">Price- Rs.1000-1200</a></li>
+                </ul>
+              </li>
+           
+          </ul>
+          <form class="navbar-form navbar-left" action="/action_page.php">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" name="search">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </nav>
+    <!-- navigation bar ends -->
+    <div class="filters">
+        <h4 id="IMTOP">FILTERS BY PRICE</h4>
+        <input type="checkbox"><p>Rs. 100-150</p>
+        <input type="checkbox"><p>Rs. 150-200</p>
+        <input type="checkbox"><p>Rs. 200-250</p>
+        <input type="checkbox"><p>Rs. 250-300</p>
+        <input type="checkbox"><p>Rs. 300-350</p>
+        <input type="checkbox"><p>Rs. 350-400</p>
+        <input type="checkbox"><p>Rs. 400-450</p>
+        <h4 id="IM">FILTERS BY ITEMS</h4>
+        <input type="checkbox"><p>BRIYANI</p>
+        <input type="checkbox"><p>COFFEE</p>
+        <input type="checkbox"><p>CHICKEN</p>
+        <input type="checkbox"><p>DRINKS</p>
+        <input type="checkbox"><p>DAL MAKHANI</p>
+        <input type="checkbox"><p>BURGER</p>
+        <input type="checkbox"><p>PIZZA</p>
+        <h4 id="IM2">FILTER BY CITY</h4>
+        <input type="checkbox"><p>DEHRADUN</p>
+        <input type="checkbox"><p>RISHIKESH</p>
+        <input type="checkbox"><p>SHARANPUR</p>
+        <input type="checkbox"><p>BYASSI</p>
+        <input type="checkbox"><p>RUDRAPRAYAG</p>
+        <input type="checkbox"><p>DEVPRAYAG</p>
+        <input type="checkbox"><p>KRANPRAYAG</p>
+        <input type="checkbox"><p>GAUCHAR</p>
+    </div>
+    <section class="items">
+        <div class="item">
+            <img src="https://i.ibb.co/w639DC9/otium-cookhouse.webp" alt="burger">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span class="rate">4.2</span>
+            </div>
+            <h4>Burger</h4><br>
+            <span class="features">Smoky Cedar Planked Burger With Jala Penocilantro Mayo.... </span><br>
+            <p class="price">Rs. 120.00 <span class="cut">Rs. 140.00</span><span class="off">(Rs. 20 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+            
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/7gfjqPg/coffee.webp" alt="coffee">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span ><i class="far fa-star"></i></span>
+                <span class="rate">3.4</span>
+            </div>
+            <h4>Coffee</h4><br>
+            <span class="features">It must have zero primary defects and less than 5 secondary defects.... </span><br>
+            <p class="price">Rs. 150.00 <span class="cut">Rs. 200.00</span><span class="off">(Rs. 50 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/Jjd03g3/pizza2.webp" alt="pizza">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span class="rate">4.4</span>
+            </div>
+            <h4>Pizza</h4><br>
+            <span class="features">It should be no socker that a classic is the statistical favourite ....  </span><br>
+            <p class="price">Rs. 50.00 <span class="cut">Rs. 70.00</span><span class="off">(Rs. 20 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/92kTv1F/paratha.webp" alt="paratha">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span ><i class="far fa-star"></i></span>
+                <span class="rate">3.3</span>
+            </div>
+            <h4>Paratha</h4><br>
+            <span class="features">They are fried instead of pan frying like the regular stuffed parathas.....</span><br>
+            <p class="price">Rs. 30.00 <span class="cut">Rs. 40.00</span><span class="off">(Rs. 10 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/h1kk7Mq/thali.webp" alt="veg.Thali">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span class="rate">4.1</span>
+            </div>
+            <h4>Veg. Thali</h4><br>
+            <span class="features">A condiment made with fruit, herbs, spices, and even vegetables..... </span><br>
+            <p class="price">Rs. 80.00 <span class="cut">Rs. 120.00</span><span class="off">(Rs. 40 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/dLz8sFk/snacks.jpg" alt="snacks">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span ><i class="far fa-star"></i></span>
+                <span class="rate">3.2</span>
+            </div>
+            <h4>Snacks</h4><br>
+            <span class="features">As well items made from fresh ingredients at home..... </span><br>
+            <p class="price">Rs. 20.00 <span class="cut">Rs. 35.00</span><span class="off">(Rs. 15 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/p1LVn4J/momos.webp" alt="momos">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span class="rate">4.5</span>
+            </div>
+            <h4>Momos</h4><br>
+            <span class="features">Momos are bite-size dumplings made with a spoonful of stuffing rapped in dough. </span><br>
+            <p class="price">Rs. 50.00 <span class="cut">Rs. 70.00</span><span class="off">(Rs. 20 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/FzMdDMk/chole.webp" alt="cholee">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span class="rate">4.4</span>
+            </div>
+            <h4>Chole</h4><br>
+            <span class="features">Northern areas of the Indian subcontinent.It is a combination of chana masala..... </span><br>
+            <p class="price">Rs. 50.00 <span class="cut">Rs. 70.00</span><span class="off">(Rs. 20 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/t8wQ3kd/choco-cake.webp" alt="choco-cake">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span class="rate">4.7</span>
+            </div>
+            <h4>Choco-cake</h4><br>
+            <span class="features">Having fewer ingredients and proper baking methods make the cake more appealing.....</span><br>
+            <p class="price">Rs. 100.00 <span class="cut">Rs. 130.00</span><span class="off">(Rs. 30 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/G5gfgXx/briyani.webp" alt="briyani">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span class="rate">4.2</span>
+            </div>
+            <h4>Briyani</h4><br>
+            <span class="features">It is made with the Indian spices, rice, and usually some type of meat..... </span><br>
+            <p class="price">Rs. 30.00 <span class="cut">Rs. 50.00</span><span class="off">(Rs. 20 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/ryyK15r/egg-currry.webp" alt="curry">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span class="rate">4.3</span>
+            </div>
+            <h4>Egg-currry</h4><br>
+            <span class="features">It is loaded with proteins, calcium, healthy fats, vitamins, and minerals which is must....</span><br>
+            <p class="price">Rs. 150.00 <span class="cut">Rs. 180.00</span><span class="off">(Rs. 20 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/64vKZhY/chiken.webp" alt="Chicken">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span class="rate">4.2</span>
+            </div>
+            <h4>Chicken</h4><br>
+            <span class="features">Amritsari Chicken masala. Chicken is a Punjabi cuisine favorite.... </span><br>
+            <p class="price">Rs. 250.00 <span class="cut">Rs. 190.00</span><span class="off">(Rs. 60 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/DG6Tc5y/dal.webp" alt="Dal">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star-half-alt"></i></span>
+                <span class="rate">4.2</span>
+            </div>
+            <h4>Dal Makhani</h4><br>
+            <span class="features">It is rich in calcium which helps in strenthening your bones and is also good....</span><br>
+            <p class="price">Rs. 170.00 <span class="cut">Rs. 230.00</span><span class="off">(Rs. 60 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+        <div class="item">
+            <img src="https://i.ibb.co/sHhcMJ2/drinks.jpg" alt="Drinks">
+            <div class="rating">
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="fas fa-star"></i></span>
+                <span ><i class="far fa-star"></i></span>
+                <span ><i class="far fa-star"></i></span>
+                <span class="rate">3</span>
+            </div>
+            <h4>Cold-Drinks</h4><br>
+            <span class="features">Soft drinks contribute to the healthy and enjoyable diet..... </span><br>
+            <p class="price">Rs. 50.00 <span class="cut">Rs. 70.00</span><span class="off">(Rs. 20 OFF)</span></p><br>
+            <a href="detail.html" id="del"><button >order now</button></a>
+        </div>
+    </section>
+<!-- content bar end -->
+
+    <!-- footer -->
+    <footer>
+        <p id="name">
+            &copy; Abhishek chauhan
+        </p>
+        <hr>
+        <div class="footdiv">
+            Contact Us
+            <p> Who We Are</p>
+            <p>  Blog</p>
+            <p>  Work With Us</p> 
+        </div>
+        <div class="footdiv">
+        Main Menu
+        <p> Consumer Complaints</p>
+        <p>Submit a Complaint</p>
+        <p>Categories</p>
+        </div>
+        <div class="footdiv side">
+        Additional
+        <p>Terms of Use</p>
+        <p>Privacy Policy</p>
+        <p>About us</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+</html>
